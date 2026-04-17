@@ -1,19 +1,24 @@
-public class Core 
-{
-    public static void main(String args[])
-    {
-        // float ff = 5.6f;
-        // int tt = (int) ff;
-        // System.out.println(tt);
+class Core{
+    public static void main(String[] args) {
+        int num = 7;
+        // int num2 = 5;
 
-        // byte b = 125;
-        // int a = 257;
-        // byte k = (byte)a; // in this the value of is given by like a%128
-        
-        byte a = 10;
-        byte b = 30;
-        int result = a*b;
+        // int result = num1+num2;
+        // int result = num1-num2;
+        // int result = num1*num2;
+        // int result = num1/num2;
+        // int result = num1%num2;
 
-        System.out.println(result);
+        // num1 = num1 + 2;
+        // increment / decrement
+        // num1++;   =>  post incrememt
+        // it will first fetch the value and then do increment
+        // num1--;    
+
+        // ++num; => pre - incrememnt
+        // in this case it first increment and then fetch the value
+
+
+        System.out.println(num);
     }
 }
